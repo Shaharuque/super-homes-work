@@ -1,0 +1,186 @@
+ /* .newUser {
+    flex:4;
+    padding: 0 20px;
+  } */
+  
+  /* .formWrap{
+    background-color: rgba(255, 255, 255, 0.4);
+    backdrop-filter: blur(5px);
+    border-radius:10px;
+  } */
+
+  /* .Title{
+    font-size: 15px;
+    background-color: rgba(255, 255, 255, 0.4);
+    backdrop-filter: blur(5px);
+    border-radius:10px;
+    font-family:sans-serif;
+    font-weight: 600;
+    margin: 20px 0;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  } */
+ 
+ 
+  
+  /* .newUserItem {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 10px;
+    margin-right: 20px;
+  }
+  
+  .newUserItem > label {
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-weight: 600;
+  }
+  
+  .newUserItem > input {
+    height: 60px;
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+  }
+   */
+  /* .newUserGender > input {
+    margin-top: 15px;
+    
+  }
+
+  
+  .newUserGender>label{
+      margin: 10px;
+      font-size: 18px;
+  }
+   */
+  /* .newUserSelect{
+      height: 60px;
+      border-radius: 5px;
+  }
+   */
+  /* .newUserButton{
+      width: 200px;
+      border: none;
+      background-color: teal;
+      color: white;
+      padding: 7px 10px;
+      font-weight: 600;
+      border-radius: 10px;
+      margin-top: 30px;
+      cursor: pointer;
+
+  } */
+  /* camera part css */
+  .ImageContainer{
+      display: grid;
+      grid-template-columns: repeat(2,1fr);
+      
+  } 
+  .ImageIcon:hover{
+      color: aqua;
+      cursor: pointer;
+  }
+
+  /* .bed-button{
+    height: 50px;
+    margin-top: 10px;
+    font-weight: 600;
+    background-color: aquamarine;
+    border:1px solid aquamarine;
+    border-radius: 5px;
+  }
+  
+  .submit-button-div{
+      display: flex;
+      justify-content: end;
+      margin-top: 50px;
+  }
+  .submit-button{
+    height: 50px;
+    width: 200px;
+    margin-top: 10px;
+    font-weight: 600;
+    background-color: rgb(7, 53, 38);
+    border:1px solid rgb(3, 68, 46);
+    border-radius: 5px;
+    color: aliceblue;
+    cursor: pointer;
+    
+  }
+
+  .bed-button:hover{
+    transition: 0.13s ease-in-out;
+    color: white;
+    background-color: teal;
+    cursor: pointer;
+  }
+
+  .bottomTitle{
+    font-size: 15px;
+    background-color: rgba(255, 255, 255, 0.4);
+    backdrop-filter: blur(5px);
+    border-radius:10px;
+    font-family:sans-serif;
+    
+    height: 60px;
+    display: flex;
+    align-items: center;
+    
+  } */
+  /* animation */
+ /* .arrow {
+    opacity: 0;
+    position: absolute;
+        left: 50%;
+        top: 50%;
+    transform-origin: 50% 50%;
+    transform: translate3d(-50%, -50%, 0);
+}
+
+.arrow-first {
+    animation: arrow-movement 1s ease-in-out infinite;
+}
+.arrow-second {
+    animation: arrow-movement 2s 1s ease-in-out infinite;
+}
+
+.arrow:before,
+.arrow:after {
+    background: red;
+    content: '';
+    display: block;
+    height: 2px; 
+    position: absolute;
+        top: 0;
+        left: 0;
+    width: 20px;
+}
+
+.arrow:before {
+    transform: rotate(45deg) translateX(-23%);
+    transform-origin: top left;
+}
+
+.arrow:after {
+    transform: rotate(-45deg) translateX(23%);
+    transform-origin: top right;
+}
+
+@keyframes arrow-movement {
+    0% { 
+        opacity: 0;
+        top: 45%;
+    }
+    70% {
+        opacity: 1;
+    }
+    100% { 
+        opacity: 0;
+    }
+}  */
+
+/* TODO: TASK: Media Query using styled component*/
